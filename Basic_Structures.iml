@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/out/production/Basic_Structures" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/video-followthrough/Ali" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/video-followthrough/Mayowa" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/video-followthrough/Pranaya" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/video-followthrough" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

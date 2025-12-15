@@ -3,26 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="70a530b0-130f-44ec-9fc6-d1ada4e55c00" name="Changes" comment="testing the first commit">
       <change beforePath="$PROJECT_DIR$/Basic_Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Structures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/ali_arrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/mayowa_arrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/pranaya_arrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/solutions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/misc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/notes/arrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/notes/mistakes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/notes/patterns.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-repo2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/arrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/mistakes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/patterns.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-followthrough/Ali/array_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-followthrough/Ali/array_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-followthrough/Mayowa/array_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-followthrough/Mayowa/array_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-followthrough/Pranaya/array_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-followthrough/Pranaya/array_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765806827401</updated>
-      <workItem from="1765806828798" duration="11051000" />
+      <workItem from="1765806828798" duration="11401000" />
     </task>
     <task id="LOCAL-00001" summary="testing the first commit">
       <option name="closed" value="true" />
