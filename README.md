@@ -1,9 +1,16 @@
-This is the first course of our winter break DSA learning session.
-We'll be delving into the essence of Data Structures and Algorithms using Java, 
-and then we'll move forward with our first project based on a simple data flow algorithm.
+# Basic Structures
 
-#Demo
-Some descruotuib!
+Winter break DSA learning session focusing on Data Structures and Algorithms using Java.
 
-##Subheader
-Watch some tutorials on DSA
+## Structure
+
+- **leetcode/**: LeetCode problem solutions and notes
+- **video-followthrough/**: Solutions from video tutorials
+- **projects/**: Unofficial practice projects
+- **Ali/**: Ali's array solutions
+- **Mayowa/**: Mayowa's array solutions
+- **Pranaya/**: Pranaya's array solutions
+
+## Getting Started
+
+This project uses Java for implementing and practicing data structures and algorithms.

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70a530b0-130f-44ec-9fc6-d1ada4e55c00" name="Changes" comment="testing the first commit">
+      <change beforePath="$PROJECT_DIR$/Basic_Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Structures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/ali_arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/mayowa_arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/pranaya_arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/leetcode/solutions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/misc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/notes/arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/notes/mistakes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/notes/patterns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-repo2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/arrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/mistakes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/patterns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pranayakhadgi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pranayakhadgi/Project-Winter&quot;,
+    &quot;accountId&quot;: &quot;d5dbe8d3-17e2-4461-9d65-f20d8f6c29a0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="36sst4cCQiSUecgyvae4zk8c8oq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.array_Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/pranaya/Desktop/projects/Basic_Structures/demo-repo/out/production/Basic_Structures",
+    "onboarding.tips.debug.path": "/home/pranaya/Desktop/projects/Basic_Structures/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-repo/out/production/Basic_Structures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo-repo/out/production/Basic_Structures" />
+      <recent name="$PROJECT_DIR$/demo-repo2/Pranaya's Practice Hub/src" />
+      <recent name="$PROJECT_DIR$/demo-repo" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70a530b0-130f-44ec-9fc6-d1ada4e55c00" name="Changes" comment="" />
+      <created>1765806827401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765806827401</updated>
+      <workItem from="1765806828798" duration="11051000" />
+    </task>
+    <task id="LOCAL-00001" summary="testing the first commit">
+      <option name="closed" value="true" />
+      <created>1765808400703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765808400703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testing the first commit">
+      <option name="closed" value="true" />
+      <created>1765808409497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765808409497</updated>
+    </task>
+    <task id="LOCAL-00003" summary="testing the first commit">
+      <option name="closed" value="true" />
+      <created>1765809060574</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765809060574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing the first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing the first commit" />
+  </component>
+</project>
