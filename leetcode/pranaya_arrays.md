@@ -213,3 +213,110 @@ class Solution {
 
 This approach achieves **O(n)** time complexity and efficiently handles large input sizes by avoiding redundant subarray checks.
 
+---
+
+## Problem #152: Maximum Product Subarray
+
+Given an integer array `nums`, find a subarray that has the largest product and return the product.
+
+The test cases are generated so that the answer fits in a 32-bit integer. Note that the product of a subarray with a single element is the value of that element.
+
+---
+
+### Example 1
+
+**Input:**
+
+```
+nums = [2, 3, -2, 4]
+```
+
+**Output:**
+
+```
+6
+```
+
+**Explanation:**
+The subarray `[2, 3]` has the largest product, which is `6`.
+
+---
+
+### Example 2
+
+**Input:**
+
+```
+nums = [-2, 0, -1]
+```
+
+**Output:**
+
+```
+0
+```
+
+**Explanation:**
+The result cannot be `2` because `[-2, -1]` is not a contiguous subarray.
+
+---
+
+### Constraints
+
+* `1 <= nums.length <= 2 * 10^4`
+* `-10 <= nums[i] <= 10`
+* The product of any subarray fits in a 32-bit integer
+
+---
+
+### Initial Thought Process (Brute Force)
+
+I started with a simple approach. After understanding how subarrays work, I noticed a loose similarity to power sets, where all possible contiguous combinations are explored. I tracked a running `product` and a global `maxProduct`, initializing it to the minimum possible value.
+
+Using nested loops ensured every possible subarray was checked, including cases where the product of two negative numbers produces a large positive value. Although this approach works, it runs in **O(n²)** time.
+
+```java
+class Solution {
+    public int maxProduct(int[] nums) {
+        int maxProduct = Integer.MIN_VALUE;
+        for (int i = 0; i < nums.length; i++) {
+            int product = 1;
+            for (int j = i; j < nums.length; j++) {
+                product *= nums[j];
+                if (product > maxProduct)
+                    maxProduct = product;
+            }
+        }
+        return maxProduct;
+    }
+}
+```
+
+---
+
+### Optimized Approach (O(n) Dynamic Tracking)
+
+A better solution tracks both the current maximum and minimum product at each step. This is necessary because a negative number can turn a small minimum into a large maximum.
+
+This approach processes the array once and updates the global maximum along the way, achieving **O(n)** time complexity.
+
+```java
+class Solution {
+    public int maxProduct(int[] nums) {
+        int maxProduct = nums[0];
+        int currentMax = nums[0];
+        int currentMin = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            int num = nums[i];
+            int tempMax = Math.max(num, Math.max(currentMax * num, currentMin * num));
+            currentMin = Math.min(num, Math.min(currentMax * num, currentMin * num));
+            currentMax = tempMax;
+            maxProduct = Math.max(maxProduct, currentMax);
+        }
+        return maxProduct;
+    }
+}
+```
+
+The key insight is that both extremes must be tracked at every step. This eliminates redundant checks while correctly handling negative values.
