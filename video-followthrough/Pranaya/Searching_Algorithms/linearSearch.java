@@ -1,6 +1,6 @@
 package Pranaya.Searching_Algorithms;
 
-public class Search {
+public class linearSearch {
     public int linearSearch(int[] array, int target){
         for(var i=0; i<array.length;i++){
             if(array[i] == target) return i;
