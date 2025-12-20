@@ -1,16 +1,52 @@
-# Basic Structures
+██╗      ██████╗  ██████╗██╗  ██╗
+██║     ██╔═══██╗██╔════╝██║ ██╔╝
+██║     ██║   ██║██║     █████╔╝
+██║     ██║   ██║██║     ██╔═██╗
+███████╗╚██████╔╝╚██████╗██║  ██╗
+╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
 
-Winter break DSA learning session focusing on Data Structures and Algorithms using Java.
+████████╗██╗  ██╗███████╗
+╚══██╔══╝██║  ██║██╔════╝
+██║   ███████║█████╗  
+██║   ██╔══██║██╔══╝  
+██║   ██║  ██║███████╗
+╚═╝   ╚═╝  ╚═╝╚══════╝
 
-## Structure
+███████╗██╗   ██╗ ██████╗██╗  ██╗
+██╔════╝██║   ██║██╔════╝██║ ██╔╝
+█████╗  ██║   ██║██║     █████╔╝
+██╔══╝  ██║   ██║██║     ██╔═██╗
+██║     ╚██████╔╝╚██████╗██║  ██╗
+╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝
 
-- **leetcode/**: LeetCode problem solutions and notes
-- **video-followthrough/**: Solutions from video tutorials
-- **projects/**: Unofficial practice projects
-- **Ali/**: Ali's array solutions
-- **Mayowa/**: Mayowa's array solutions
-- **Pranaya/**: Pranaya's array solutions
+██╗███╗   ██╗
+██║████╗  ██║
+██║██╔██╗ ██║
+██║██║╚██╗██║
+██║██║ ╚████║
+╚═╝╚═╝  ╚═══╝
 
-## Getting Started
+LOCK THE F*CK IN, SOLDIER
 
-This project uses Java for implementing and practicing data structures and algorithms.
+Welcome.
+
+This repository exists for one reason:
+
+**discipline through repetition**
+
+No shortcuts  
+No tutorial hoarding  
+No fake productivity
+
+Only:
+- Data Structures
+- Daily commits
+- Relentless execution
+
+Winter is not for comfort.  
+Winter is for building.
+
+**status:** active  
+**mode:** lock-in  
+**commit policy:** daily  
+**failure tolerance:** zero  
