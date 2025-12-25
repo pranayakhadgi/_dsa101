@@ -1,54 +1,113 @@
 package Pranaya.Graphs;
 
+import java.util.*;
+
 //graph --> node class--> field (string) --> addNode (label) + removeNode (label) + addEdge(from, to), removeEdge (from, to)
 // print()
 // A is connected with [B,c], B is connected with [A]
 public class Graphs {
     private class Node {
         private String label;
-        private String[] arrays;
 
         public Node(String label) {
             this.label = label;
-            this.arrays = new String[5];
+        }
+
+        @Override
+        public String toString() {
+            return label;
         }
     }
 
-    private String[] arrays = new String[5];
+    private Map<String, Node> nodes = new HashMap<>();
+    private Map<Node, List<Node>> adjacencyList = new HashMap<>();
 
     public void addNode(String label) {
-        for(var i = 0; i < this.arrays.length; i++) { //does a for loop to check
-            for(var j = 1; j < this.arrays.length - i; j++) {
-                if(arrays[j] != label) {
-                    arrays[j] = label;
-                }
-            }
+        var node = new Node(label);
+        nodes.putIfAbsent(label, node);
+        adjacencyList.putIfAbsent(node, new ArrayList<>());
+    }
+
+    public void addEdge(String from, String to) {
+        var fromNode = nodes.get(from);
+        var toNode = nodes.get(to);
+        
+        if (fromNode == null || toNode == null)
+            throw new IllegalArgumentException("Node does not exist");
+
+        adjacencyList.get(fromNode).add(toNode);
+    }
+
+    public void print() {
+        for(var source : adjacencyList.keySet()) {
+            var targets = adjacencyList.get(source);
+            if(!targets.isEmpty())
+                System.out.println(source + " is connected to " + targets);
         }
     }
 
     public void removeNode(String label) {
-        for(var i = 0; i < this.arrays.length; i++) { //does a for loop to check
-            for(var j = 1; j < this.arrays.length - i; j++) {
-                if(arrays[j] == label) {
-                    arrays[j] = null;
-                }
-            }
+        var node = nodes.get(label);
+        if(node == null)
+            return;
+
+        for (var n : adjacencyList.keySet()) {
+            adjacencyList.get(n).remove(node);
+
+            adjacencyList.remove(node);
+            nodes.remove(node);
         }
     }
 
-    public String addEdge(String from, String to) {
-        //loop lagxa ra yesma?
-        return null;
+    public void removeEdge(String from, String to){
+        var fromNode = nodes.get(from);
+        var toNode = nodes.get(to);
+
+        if(fromNode == null || toNode == null)
+            return;
+
+        adjacencyList.get(fromNode).remove(toNode);
     }
 
-    public String removeEdge(String from, String to) {
-        //yesma pani
-        return null;
+    public void traverseDepthFirstRec(String root) {
+        var node = nodes.get(root);
+        if(node == null)
+            return;
+        traverseDepthFirstRec(nodes.get(root), new HashSet<>());
     }
 
-    public void print() {
-        System.out.println("");
-        //I still cannot do toString properly
+    private void traverseDepthFirstRec(Node root, Set<Node> visited){//bad name practice
+
+        System.out.println(root);
+        visited.add(root);
+
+        for(var node : adjacencyList.get(root))
+            if(!visited.contains(node))
+                traverseDepthFirstRec(node, visited);
+    }
+
+
+    public void traverseDepthFirst(String root) {
+        var node = nodes.get(root);
+        if (node == null)
+            return;
+
+        Set<Node> visited = new HashSet<>();
+        Stack<Node> stack = new Stack<>();
+        stack.push(node);
+
+        while (!stack.isEmpty()) {
+            var current = stack.pop();
+
+            if(visited.contains(current))
+                continue;
+            System.out.println(current);
+            visited.add(current);
+
+            for(var neighbor : adjacencyList.get(current))
+                if(!visited.contains(neighbor))
+                    stack.push(neighbor);
+        }
     }
 }
 
