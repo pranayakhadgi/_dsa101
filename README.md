@@ -4,6 +4,8 @@ This repository exists for one reason:
  
 # LOCK THE F*CK IN, SOLDIER!
 
+*Last updated: December 2024*
+
 
 ## Some useful cheat sheets :) 
 
