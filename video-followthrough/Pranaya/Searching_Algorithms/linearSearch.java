@@ -8,3 +8,15 @@ public class linearSearch {
         return -1;
     }
 }
+
+
+//class example
+public static int linearSearch(List<Integer> records, int searchValue) {
+    int size = records.size();
+    int position = NOT_FOUND; //contant
+
+
+int index = 0;
+    whiel(condition){
+        //condition goes in...
+        }
