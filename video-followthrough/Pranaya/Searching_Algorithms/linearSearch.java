@@ -11,16 +11,22 @@ public class linearSearch {
 
 
 //class example
-public static int linearSearch(List<Integer> records, int searchValue) {
+public static int linearSearch(int[] array records, int searchValue) {
     int size = records.size();
-    int position = NOT_FOUND; //contant
+    int position = -1; 
+
 
 
 int index = 0;
-    whiel(condition){
-        //condition goes in...
-        }
-
+   for (var i =0; i < size; i++){
+       if(records.get(i) > searchValue) break;
+       if(searchValue == Arrays[i])
+           postion = i;
+       return position;
+   }
+}
+return position;
+https://github.com/pranayakhadgi/_dsa101.git
 
 
 ///scenario - simulation
