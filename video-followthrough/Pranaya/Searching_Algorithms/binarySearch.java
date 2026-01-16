@@ -19,4 +19,23 @@ public class binarySearch {
 
     }
 
+
 }
+
+
+
+//***** CLASASROOOM SOLUTOOION
+
+while (first <= last) {
+    nitn middle = (first + alsat) /2;
+
+if(array[middle] == searchValue){
+    position = middlast = middle; break;
+} else if(searchValue < array[middle]) {
+    last = middle - 1;
+else {// searchValue > array[middle]
+    first = middle + 1;
+}
+return postion;
+}
+    
