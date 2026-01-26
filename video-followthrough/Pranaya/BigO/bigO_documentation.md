@@ -1,5 +1,13 @@
 # Big O Notation Cheatsheet
 
+**Idea**: The asymtotic notation : Big O lets us answer the "How bad is it?" question by saying that it never gets any worse than a certain class of function. WHen the size of the input gets learge, the Big O is what counts. 
+
+We're veery instered in performace of  algrithms and how the cost of an algorithm increases as teh size of the problem incrases. The cost can include the time eeqruited, space required and the network bandwidth.  B ig O is th edeciding factor in choosing a adata strcutreu or algorithm. We need to be cognizant of Big O when writing code, as even a ssingle line of code can raise the Big O of an application making the cde unusable.
+
+**Common approach**:- If the input is small, *any algorithm* is okay (element # up until 100, 1000 is acceptable). 
+
+Calculation is at the SiuuuuperNotee. 
+
 ## Time Complexity
 
 ### Common Complexities (Fastest to Slowest)
