@@ -1,7 +1,12 @@
 # My view on Stack and Queue
 
+
+## Queue Overview
+
 Alright team, we start with Queue (video filing issue). Queue is an interface not a class to be instantiated. If done so, will result in auto-generated overridden series of a chunk of methods/functions of queue which looks as follows:-
 
+
+```
 package Pranaya.StackQueue;
 
 import java.util.Collection;
@@ -103,6 +108,7 @@ return false;
         }
     }
 }
+```
 
 ## The First Interview Exercise - Reversing a Queue
 Well, since I had a few constraints on this exercise to strictly use add(), remove(), isEmpty() queue functions, I thought of a similar approach I did for String reversal. I converted the Queue into Array and basically reverse for looped it. Using the queue.add added the reversed array elements. While Mosh used a better approach of Stack implmentation where he cut paste the elements of queue into stack using push from Stack and remove from Queue, check if the Stack is empty again, to re put the elements from Stack to Queue as Stack does LIFO and Queue takes is as FIFO, hence the element reversal makes much more sense.
