@@ -1,3 +1,5 @@
+import SortSimulation;
+
 /*
  * CS310 lab: Insertion Sort Implementation
  * @author Pranaya Khadgi Shahi
