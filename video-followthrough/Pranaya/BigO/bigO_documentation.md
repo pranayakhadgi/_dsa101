@@ -1,7 +1,7 @@
 # Big O Notation Cheatsheet
 ## Asymptotic Notation | Worst Upper-bound (more focused)
 
-**Idea**: The asymtotic notation : Big O lets us answer the "How bad is it?" question by saying that it never gets any worse than a certain class of function. WHen the size of the input gets learge, the Big O is what counts. 
+**Idea**: The asymtotic notation : Big O lets us answer the "How bad is it?" question by saying that it never gets any"" worse than a certain class of function. WHen the size of the input gets learge, the Big O is what counts. 
 Running time differs in the hardware it's being executed. 
 
 We're veery interested in performace of algrithms and how the cost of an algorithm increases as teh size of the problem incrases. The cost can include the time eeqruited, space required and the network bandwidth.  Big O is th edeciding factor in choosing a adata strcutreu or algorithm. We need to be cognizant of Big O when writing code, as even a ssingle line of code can raise the Big O of an application making the cde unusable.
