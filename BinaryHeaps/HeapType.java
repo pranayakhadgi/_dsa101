@@ -32,6 +32,14 @@ public class HeapType<T> {
     }
 
     public void ReheapUp(int root, int bottom){
+        int parent;
+
+        if(bottom > root)
+            parent = (bottom - 1) / 2;
         
+        if(elements[parent].CompareTo(elements[bottom]) < 0){
+            Swap(parent, bottom);
+            ReheapUp(root, parent);
+        }
     }
 }
